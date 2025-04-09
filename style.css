@@ -12,8 +12,8 @@ body {
     
     border-radius: 20px;}
     .pfp:hover {    
-    width: 50%;
-    height: 50%;
+#    width: 50%;
+#    height: 50%;
     transition: 0.5s;
     }
     .details {
