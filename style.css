@@ -1,0 +1,63 @@
+body {
+    background-color: #494949;
+    color: white;
+    font-family:arial, "lucida console", sans-serif;
+    }
+    .pfp {
+        
+    width: 30%;
+    height: 30%;
+    
+    float: right;
+    
+    border-radius: 20px;}
+    .pfp:hover {    
+    width: 50%;
+    height: 50%;
+    transition: 0.5s;
+    }
+    .details {
+    
+    padding-left: 5%;
+    
+    }
+    .details_container {
+    
+    border: #929292 solid 5px;
+    border-radius: 20px;
+    padding: 2%;
+    margin: 2%;
+    box-shadow: #929292 0px 0px 20px 5px;
+    }
+    .container_center {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    }
+    .details_container_header {
+    text-decoration: underline;
+    background-color: #5b5b5b;
+    border-radius: 20px;
+    text-align: center;
+    width: 15%;
+    color: white;
+    }
+    .maps {
+    border: 5px solid #929292;
+    border-radius: 20px;
+    }
+    @keyframes slideDown {
+        from {
+          transform: translateY(-100vh);
+          opacity: 0;
+        }
+        to {
+          transform: translateY(0);
+          opacity: 1;
+        }
+      }
+      
+      .body-animate {
+        animation: slideDown 3.5s ease-out;
+      }
+      
