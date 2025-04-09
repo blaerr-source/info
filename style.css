@@ -4,18 +4,12 @@ body {
     font-family:arial, "lucida console", sans-serif;
     }
     .pfp {
-        
-    width: 30%;
-    height: 30%;
-    
-    float: right;
-    
-    border-radius: 20px;}
-    .pfp:hover {    
-    width: 50%;
-    height: 50%;
-    transition: 0.5s;
-    }
+      width: 150px;
+      height: auto;
+      float: right;
+      border-radius: 20px;
+      margin-left: 20px;
+  }
     .details {
     
     padding-left: 5%;
